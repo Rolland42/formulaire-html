@@ -3,13 +3,13 @@ $name = $_POST['user_name'];
 $password = $_POST['user_password'];
 $email = $_POST['user_mail'];
 $message = $_POST['user_message'];
-$birthdate = $_POST['user_birthdate'];
+$birth_date = $_POST['user_birthdate'];
 
-echo '<br>'. $birthdate;
+echo '<br>'. $birth_date;
 
-$currentdate = date('Y');
-echo '<br>'. $currentdate;
+$current_date = date('Y');
+echo '<br>'. $current_date;
 
-$age = $currentdate - $birthdate;
+$age = $current_date - $birth_date;
 echo '<br>'. $age;
 echo 24 + 1894;
